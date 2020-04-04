@@ -7,9 +7,13 @@ Simple TCP listen server in Go (with logging functionality)
 You can "git clone" my repo with :
 
 ```
-"git clone https://github.com/TRedzepagic/tcplistener.git"
+git clone https://github.com/TRedzepagic/tcpclient.git
 ```
+Then run with :
 
+```
+go run main.go "Port" 
+```
 ## Database configuration (Taken from compositelogger configuration)
 
 To setup the database you need to install the mysql-server, which you can look up online.

@@ -26,7 +26,7 @@ import (
 func Handler(connection net.Conn, log *logs.CompositeLog) {
 	log.Infof("%s has connected to the server", connection.RemoteAddr().String())
 
-	//infinite loop until exited from inside
+	// Infinite loop until exited from inside
 	for {
 		data, err := bufio.NewReader(connection).ReadString('\n')
 		if err != nil {
