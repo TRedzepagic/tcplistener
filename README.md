@@ -1,27 +1,14 @@
-# compositelogger
+# tcplistener
 Simple TCP listen server in Go (with logging functionality)
 
 ## How to run
 
 ### Cloning
-You can "git clone" my repo with (Entire repository):
+You can "git clone" my repo with :
 
 ```
 "git clone https://github.com/TRedzepagic/tcplistener.git"
 ```
-
-### Module functionality
-Using go modules :
-
-```
-Download "main.go" to a folder with your name of choice
-Execute these commands :  
-
-"go mod init "foldername"
-"go run main.go"
-
-in the terminal.
-``` 
 
 ## Database configuration (Taken from compositelogger configuration)
 
