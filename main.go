@@ -75,13 +75,14 @@ func main() {
 		return
 	}
 
-	log.Info("Listening...")
 	PORT := ":" + arguments[1]
 	listener, err := net.Listen("tcp", PORT)
 	if err != nil {
 		log.Error(err)
 		return
 	}
+	log.Info("Listening...")
+
 	for {
 		connection, err := listener.Accept()
 		if err != nil {
